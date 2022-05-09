@@ -85,11 +85,7 @@ h4 {
     color: black;
 }
 
-.icon {
-    width: 80px;
-}
-
-.logo {
+.icon, .logo {
     width: 80px;
 }
 
