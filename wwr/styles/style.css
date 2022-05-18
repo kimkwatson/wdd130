@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Quicksand&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,12 +9,20 @@
     text-align:center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
 }
 
 body {
     background-color: #a4c1df;
+    font-family: "Quicksand";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -23,6 +33,7 @@ nav a {
     text-align: center;
     color: #C0C0C0;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #a4c1df;
@@ -33,6 +44,10 @@ nav a:hover {
     background-color: #004a8f;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -46,18 +61,25 @@ nav a:hover {
 
 .msg {
     background-color: #004a8f;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: white;
+    font-family: "Alegreya Sans SC";
 }
 
 .msg p {
     color: #C0C0C0;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #137c76;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3 {
@@ -77,12 +99,27 @@ footer a:hover {
     color: #004a8f
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
+h2 {
+    margin: 0;
+}
+
 h4 {
     color: #004a8f;
 }
 
 .home-title {
     color: black;
+    font-family: "Alegreya Sans SC";
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.icon {
+    padding-top: 10px;
 }
 
 .icon, .logo {
@@ -91,4 +128,16 @@ h4 {
 
 #hero-img {
     width: 100%;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #C0C0C0;
 }
