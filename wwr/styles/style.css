@@ -38,7 +38,7 @@ body {
 }
 
 header {
-    background-color: #137c76;
+    background-color: rgb(19, 124, 118, .6);
     display: grid;
     grid-template-columns: 150px auto;
 }
