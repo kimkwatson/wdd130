@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Montserrat&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #090C08;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #24335B;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: #08F754;
+    color: white;
+}
+
+#hero_msg, h1 {
+    text-align: center;
+    font-family: "BIZ UDPMincho", Arial, sans-serif;
+    font-size: 2em;
+    color: white;
+    padding-top: 100px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+.home-grid {
+    margin: 0 auto;
+    padding: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 1fr;
+    gap: 50px 50px;
+}
+
+.color-block-left {
+    background-color: #3066BE;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.color-block-left:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.center-img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100%;
+}
+
+.center-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.color-block-right {
+    background-color: #08F754;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.color-block-right:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.main-img {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+.main-msg {
+    justify-content: center;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.main-msg h2 {
+    color: white;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: "BIZ UDPMincho", Arial, sans-serif;
+    padding: 30px;
+}
+
+.main-msg p {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: #24335B;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3 {
+    color: white;
+    font-size: 22px;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #08F754;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
