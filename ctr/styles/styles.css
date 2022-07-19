@@ -65,10 +65,11 @@ h4 {
 .home-grid {
     margin: 0 auto;
     padding: 30px;
+    padding-top: 100px;
     max-width: 100%;
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
-    gap: 20px;
+    gap: 10px;
 }
 
 .color-block-left {
