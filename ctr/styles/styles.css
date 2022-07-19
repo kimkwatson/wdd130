@@ -118,6 +118,11 @@ h4 {
     gap: 20px;
 }
 
+.main-msg div {
+    margin: 30px;
+    font-size: 1.2em;
+}
+
 .main-msg img {
     max-width: 100%;
     object-fit: cover;
